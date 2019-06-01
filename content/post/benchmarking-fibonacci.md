@@ -392,7 +392,7 @@ BenchmarkFibPowerMatrixRecursive1024-4  10000000          213 ns/op
 ```
 
 The two noteworthy are `BenchmarkFibPowerMatrixRecursive1024-8` and
-`BenchmarkFibIterative1024-8`, which clocked in at 187 ns/op and 621 ns/op,
+`BenchmarkFibIterative1024-8`, which clocked in at 213 ns/op and 673 ns/op,
 showing that as \\({n\to\infty}\\), the \\(O(log_n)\\) implementation does
 indeed scale better. However, at lower values of \\(n\\), the iterative
 implementation should still be used.
