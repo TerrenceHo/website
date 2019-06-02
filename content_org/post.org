@@ -1,0 +1,32 @@
+#+AUTHOR: Terrence Ho
+#+HUGO_BASE_DIR: ../
+#+HUGO_AUTO_SET_LASTMOD: t
+#+SEQ_TODO: TODO DRAFT DONE
+
+
+* Posts
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: post
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER:
+:END:
+
+** DRAFT Writing My Blog Posts with Org                       :hugo:org:test:
+:PROPERTIES:
+:EXPORT_FILE_NAME: org-blog-posts
+:END:
+
+Export this *first* post only by bringing point here and doing =M-x
+org-hugo-export-wim-to-md=.
+
+*** Subheading 1
+
+**** Subheading 2
+
+** DRAFT How I Started Using Emacs                                :emacs:org:
+:PROPERTIES:
+:EXPORT_FILE_NAME: how-i-started-using-emacs
+:END:
+
+Go over how I got into emacs. EVIL MODE
+** TODO Go Essentials Part 1
+** TODO Go Essentials Part 2
