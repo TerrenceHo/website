@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Terrence Ho"
 theme = "minimal"
 # disqusShortname = "username" # delete this to disable disqus comments
-googleAnalytics = ""
+googleAnalytics = "UA-86036425-2" 
 
 [params]
     author = "Terrence Ho"
