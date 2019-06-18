@@ -255,7 +255,7 @@ your system looks.
 
 Personally, I'm a fan of the [Doom City Lights Theme](https://github.com/hlissner/emacs-doom-themes).
 
-<a id="org406e930"></a>
+<a id="org640403f"></a>
 
 {{< figure src="https://github.com/hlissner/emacs-doom-themes/raw/screenshots/doom-citylights.png" caption="Figure 1: Doom City Lights, courtesy of [hlissner](https://github.com/hlissner/emacs-doom-themes)" >}}
 
@@ -464,5 +464,11 @@ configurations in an `org` file, that holds both the source code and
 documentation for my configurations. I then also went into a brief overview
 about how I configure Emacs and `org` mode specifically.
 
+Emacs is endlessly configureable. There are insanely powerful plugins such as
+MaGit (git plugin), Projectile (session/project management), Helm (completion
+framework), TRAMP (SSH remote file support), autocomplete and language servers,
+and more. I am still figuring out all these other tools, which goes to show how
+awesome Emacs really is.
+
 I should have a blog post up soon detailing how I organize my blog posts using
-`ox-hugo`.
+`ox-hugo`. Stay tuned for that!
