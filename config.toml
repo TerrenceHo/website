@@ -15,7 +15,7 @@ googleAnalytics = "UA-86036425-2"
     font = "Raleway" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "solarized-dark"
-    highlightLanguages = ["go", "python"]
+    highlightLanguages = ["go", "python", "emacs-lisp"]
     copyright = "&copy; Terrence Ho 2017-2019"
     favicon = "/favicon.ico"
 

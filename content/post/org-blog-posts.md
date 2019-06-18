@@ -1,8 +1,7 @@
 +++
 title = "Writing My Blog Posts with Org"
 author = ["Terrence Ho"]
-lastmod = 2019-06-01T19:41:31-07:00
-tags = ["hugo", "org", "test"]
+tags = ["hugo", "org"]
 draft = true
 +++
 
