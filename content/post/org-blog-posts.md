@@ -12,7 +12,7 @@ Markdown, and writing in `org-mode` feels much better than writing in Markdown.
 generated Markdown file to add YAML front-matter that Hugo consumes, which is
 annoying.
 
-Enter `[[https://ox-hugo.scripter.co/][ox-hugo]]`. It allows you to maintain and generate Hugo-compatible Markdown
+Enter [`ox-hugo`](https://www.gnu.org/software/emacs/). It allows you to maintain and generate Hugo-compatible Markdown
 in `org-mode`, and automatically generates the necessary metadata Hugo requires.
 However, like all good things in life, you have to work a little to configure it
 to your liking. (What's an extension without spending a couple hours of life
@@ -238,7 +238,7 @@ but YMMV.
 
 The exporting side view looks like the following:
 
-<a id="orgcc6d0ea"></a>
+<a id="org8b629a3"></a>
 
 {{< figure src="/ox-hugo/org-mode-exporting-view.png" caption="Figure 1: `org-mode` exporting view" >}}
 

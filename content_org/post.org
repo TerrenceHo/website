@@ -19,7 +19,7 @@ Markdown, and writing in =org-mode= feels much better than writing in Markdown.
 generated Markdown file to add YAML front-matter that Hugo consumes, which is
 annoying.
 
-Enter =[[https://ox-hugo.scripter.co/][ox-hugo]]=. It allows you to maintain and generate Hugo-compatible Markdown
+Enter [[https://www.gnu.org/software/emacs/][=ox-hugo=]]. It allows you to maintain and generate Hugo-compatible Markdown
 in =org-mode=, and automatically generates the necessary metadata Hugo requires.
 However, like all good things in life, you have to work a little to configure it
 to your liking. (What's an extension without spending a couple hours of life
