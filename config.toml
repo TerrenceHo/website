@@ -29,6 +29,11 @@ googleAnalytics = "UA-86036425-2"
     name = "Posts"
     weight = 2
 
+[[menu.main]]
+    url = "/personalfinance.pdf"
+    name = "Personal Finance Guide"
+    weight = 3
+
 # [[menu.main]]
 #     url = "/project/"
 #     name = "Projects"
