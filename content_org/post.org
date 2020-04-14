@@ -734,32 +734,6 @@ I should have a blog post up soon detailing how I organize my blog posts using
 *** Channels
 
 *** Data sharing and locks
-** TODO A Deep Dive into gzip's Codebase Part 1                      :C:gzip:
-   :PROPERTIES:
-   :EXPORT_FILE_NAME: gzip-deep-dive-part-1
-   :END:
-** TODO Integrating =zlib= into =gzip=                               :C:gzip:
-   :PROPERTIES:
-   :EXPORT_FILE_NAME: gzip-integrate-zlib
-   :END:
-** TODO Parallelizing gzip                          :C:gzip:parallel:threads:
-   :PROPERTIES:
-   :EXPORT_FILE_NAME: parallelizing-gzip
-   :END:
-** TODO My Journey as a Developer                                   :journey:
-   :PROPERTIES:
-   :EXPORT_FILE_NAME: my-journey
-   :END:
-
-This is a never-ending post of my journey as a developer.
-** TODO Garbled Circuits Research                  :research:garbled_ciruits:
-
-*** Explain Garbled Circuits
-
-*** Explain the leaky bit problem
-
-*** Explain our attempts to solve it
-** TODO UCLA DevX internal tools             :DevX:go:backend:postgres:redis:
 ** TODO Computability: Recursion Theorem and the Halting Problem   :research:
 ** TODO My new grad job search and my view on interviews     :interviews:job:
    :PROPERTIES:
@@ -1006,6 +980,17 @@ since their onsites were after my Microsoft deadline, and frankly I was tired of
 interviewing.
 
 * Personal Finance Posts
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: finance_post
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER:
+:END:
+
+** TODO Fidelity Cash Management as a Checking Account     :fidelity:banking:
+   :PROPERTIES:
+   :EXPORT_FILE_NAME:fidelity-cma
+   :END:
+
+** TODO Zero Emergency Fund
 * Projects
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: project
