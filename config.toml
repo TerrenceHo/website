@@ -1,4 +1,4 @@
-baseURL = "https://terrenceho.org"
+baseURL = "https://terrenceho.org/"
 languageCode = "en-us"
 title = "Terrence Ho"
 theme = "minimal"

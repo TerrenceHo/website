@@ -1005,6 +1005,7 @@ the end however. I ended up cancelling onsites for Amazon and Akuna Capital,
 since their onsites were after my Microsoft deadline, and frankly I was tired of
 interviewing.
 
+* Personal Finance Posts
 * Projects
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: project
