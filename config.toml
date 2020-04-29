@@ -62,3 +62,8 @@ googleAnalytics = "UA-86036425-2"
     url = "/terrencehoresume.pdf"
     name = "fas fa-file-alt"
     weight = 4
+
+[[menu.icon]]
+    url = "/index.xml"
+    name = "fas fa-rss"
+    weight = 5

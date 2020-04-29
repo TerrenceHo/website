@@ -985,12 +985,12 @@ interviewing.
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER:
 :END:
 
-** TODO Fidelity Cash Management as a Checking Account     :fidelity:banking:
+** TODO My Banking Setup                                   :fidelity:banking:
    :PROPERTIES:
    :EXPORT_FILE_NAME:fidelity-cma
    :END:
 
-** TODO Zero Emergency Fund
+** TODO Zero Emergency Fund?
 * Projects
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: project
