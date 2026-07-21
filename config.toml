@@ -3,36 +3,36 @@ languageCode = "en-us"
 title = "Terrence Ho"
 theme = "minimal"
 # disqusShortname = "username" # delete this to disable disqus comments
-googleAnalytics = "UA-86036425-2" 
+googleAnalytics = "UA-86036425-2"
 
 [params]
-    author = "Terrence Ho"
-    description = "Backend Developer"
-    githubUsername = "TerrenceHo"
-    accent = "red"
-    showBorder = false
-    backgroundColor = "white"
-    font = "Raleway" # should match the name on Google Fonts!
-    highlight = true
-    highlightStyle = "solarized-dark"
-    highlightLanguages = ["go", "python", "emacs-lisp"]
-    copyright = "&copy; Terrence Ho 2017-2019"
-    favicon = "/favicon.ico"
+author = "Terrence Ho"
+description = "Software Engineer"
+githubUsername = "TerrenceHo"
+accent = "red"
+showBorder = false
+backgroundColor = "white"
+font = "Raleway"                                    # should match the name on Google Fonts!
+highlight = true
+highlightStyle = "solarized-dark"
+highlightLanguages = ["go", "python", "emacs-lisp"]
+copyright = "&copy; Terrence Ho 2017-2026"
+favicon = "/favicon.ico"
 
 [[menu.main]]
-    url = "/"
-    name = "Home"
-    weight = 1
+url = "/"
+name = "Home"
+weight = 1
 
 [[menu.main]]
-    url = "/post/"
-    name = "Posts"
-    weight = 2
+url = "/post/"
+name = "Posts"
+weight = 2
 
 [[menu.main]]
-    url = "/personalfinance.pdf"
-    name = "Personal Finance Guide"
-    weight = 3
+url = "/personalfinance.pdf"
+name = "Personal Finance Guide"
+weight = 3
 
 # [[menu.main]]
 #     url = "/project/"
@@ -44,26 +44,21 @@ googleAnalytics = "UA-86036425-2"
 # The list of available icons can be found at http://fontawesome.io/icons/
 
 [[menu.icon]]
-    url = "mailto:terrenceho.books@gmail.com"
-    name = "fas fa-envelope-open"
-    weight = 1
+url = "mailto:contact@thohq.com"
+name = "fas fa-envelope-open"
+weight = 1
 
 [[menu.icon]]
-    url = "https://github.com/TerrenceHo/"
-    name = "fab fa-github"
-    weight = 2
+url = "https://github.com/TerrenceHo/"
+name = "fab fa-github"
+weight = 2
 
 [[menu.icon]]
-    url = "https://www.linkedin.com/in/terrence-ho/"
-    name = "fab fa-linkedin"
-    weight = 3
+url = "https://www.linkedin.com/in/terrence-ho/"
+name = "fab fa-linkedin"
+weight = 3
 
 [[menu.icon]]
-    url = "/terrencehoresume.pdf"
-    name = "fas fa-file-alt"
-    weight = 4
-
-[[menu.icon]]
-    url = "/index.xml"
-    name = "fas fa-rss"
-    weight = 5
+url = "/index.xml"
+name = "fas fa-rss"
+weight = 4

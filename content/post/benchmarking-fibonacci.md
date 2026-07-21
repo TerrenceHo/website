@@ -4,7 +4,6 @@ date: 2018-08-22
 tags: ["go", "fibonacci", "benchmark"]
 draft: false
 math: true
-markup: mmark
 ---
 
 

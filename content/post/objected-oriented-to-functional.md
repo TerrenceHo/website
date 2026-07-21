@@ -3,7 +3,6 @@ title: From Object Oriented To Functional
 date: 2017-10-21
 tags: ["python", "functional programming"]
 draft: false
-markup: mmark
 math: true
 ---
 
