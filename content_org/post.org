@@ -553,7 +553,7 @@ set:
 #+BEGIN_EXAMPLE
 #+BEGIN_SRC emacs-lisp
  (setq user-full-name "Terrence Ho"
-       user-mail-address "terrenceho.books@gmail.com")
+       user-mail-address "terrence@thohq.com")
  #+END_SRC
 #+END_SRC
 #+END_EXAMPLE
@@ -569,7 +569,6 @@ multiple states set up, such as TODO, IN-PROGRESS, WAITING, DONE, and CANCELLED.
 Note that we also want the CANCELLED state to be equivalent to a DONE state,
 since if something is cancelled, we don't want it to be done in the future.
 Adapt the following code according to how you want to set up your TODOs.
-
 #+BEGIN_EXAMPLE
 #+BEGIN_SRC emacs-lisp
 (setq org-log-done 'time)
@@ -705,36 +704,6 @@ awesome Emacs really is.
 I should have a blog post up soon detailing how I organize my blog posts using
 =ox-hugo=. Stay tuned for that!
 
-
-** TODO Go Essentials Part 1                               :go:go_essentials:
-   :PROPERTIES:
-   :EXPORT_FILE_NAME: go-essentials-part-1
-   :END:
-
-*** Constructors
-
-*** Interfaces
-
-*** Lambda functions
-
-*** Type Alias
-
-*** =iota= and =enums=
-
-*** Networking
-
-*** Reader and Writer interfaces
-** TODO Go Essentials Part 2                               :go:go_essentials:
-   :PROPERTIES:
-   :EXPORT_FILE_NAME: go-essentials-part-2
-   :END:
-
-*** Goroutines
-
-*** Channels
-
-*** Data sharing and locks
-** TODO Computability: Recursion Theorem and the Halting Problem   :research:
 ** TODO My new grad job search and my view on interviews     :interviews:job:
    :PROPERTIES:
    :EXPORT_FILE_NAME: new_grad_interview_thoughts
@@ -991,12 +960,3 @@ interviewing.
    :END:
 
 ** TODO Zero Emergency Fund?
-* Projects
-:PROPERTIES:
-:EXPORT_HUGO_SECTION: project
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER:
-:END:
-
-** govdev
-** autofresh
-** BruinBite

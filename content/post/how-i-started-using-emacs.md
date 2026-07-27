@@ -255,9 +255,9 @@ your system looks.
 
 Personally, I'm a fan of the [Doom City Lights Theme](https://github.com/hlissner/emacs-doom-themes).
 
-<a id="org640403f"></a>
+<a id="figure--fig:doom-city-lights"></a>
 
-{{< figure src="https://github.com/hlissner/emacs-doom-themes/raw/screenshots/doom-citylights.png" caption="Figure 1: Doom City Lights, courtesy of [hlissner](https://github.com/hlissner/emacs-doom-themes)" >}}
+{{< figure src="https://github.com/hlissner/emacs-doom-themes/raw/screenshots/doom-citylights.png" caption="<span class=\"figure-number\">Figure 1: </span>Doom City Lights, courtesy of [hlissner](https://github.com/hlissner/emacs-doom-themes)" >}}
 
 To install this, paste the following code into your configuration.org file.
 
@@ -312,7 +312,7 @@ set:
 ```text
 #+BEGIN_SRC emacs-lisp
  (setq user-full-name "Terrence Ho"
-       user-mail-address "terrenceho.books@gmail.com")
+       user-mail-address "terrence@thohq.com")
  #+END_SRC
 #+END_SRC
 ```

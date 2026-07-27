@@ -238,9 +238,9 @@ but YMMV.
 
 The exporting side view looks like the following:
 
-<a id="org8b629a3"></a>
+<a id="figure--fig:org-mode exporting view"></a>
 
-{{< figure src="/ox-hugo/org-mode-exporting-view.png" caption="Figure 1: `org-mode` exporting view" >}}
+{{< figure src="/ox-hugo/org-mode-exporting-view.png" caption="<span class=\"figure-number\">Figure 1: </span>`org-mode` exporting view" >}}
 
 
 ## Conclusion. {#conclusion-dot}
