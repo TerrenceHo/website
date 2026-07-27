@@ -706,8 +706,15 @@ I should have a blog post up soon detailing how I organize my blog posts using
 
 ** TODO My new grad job search and my view on interviews     :interviews:job:
    :PROPERTIES:
-   :EXPORT_FILE_NAME: new_grad_interview_thoughts
+   :EXPORT_FILE_NAME: new-grad-interview-thoughts
+   :EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
    :END:
+
+#+begin_src yaml :front_matter_extra t
+build:
+  list: never
+  publishResources: true
+#+end_src
 
 As of November 6th, 2019, I have officially secured a job at Robinhood. Now that
 I have a little more free time, I'm going to detail some of my thoughts
@@ -858,7 +865,6 @@ the new grad job cycle the following year.
 For college cycles, apply as early as in august.
 
 Market analogy, trading early.
-
 
 *** Job search trends
 

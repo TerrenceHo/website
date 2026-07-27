@@ -1,9 +1,12 @@
-+++
-title = "My new grad job search and my view on interviews"
-author = ["Terrence Ho"]
-tags = ["interviews", "job"]
-draft = true
-+++
+---
+title: "My new grad job search and my view on interviews"
+author: ["Terrence Ho"]
+tags: ["interviews", "job"]
+draft: true
+build:
+  list: never
+  publishResources: true
+---
 
 As of November 6th, 2019, I have officially secured a job at Robinhood. Now that
 I have a little more free time, I'm going to detail some of my thoughts
