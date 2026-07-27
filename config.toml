@@ -1,5 +1,4 @@
 baseURL = "https://terrenceho.dev/"
-languageCode = "en-us"
 title = "Terrence Ho"
 theme = "minimal"
 # disqusShortname = "username" # delete this to disable disqus comments
@@ -19,6 +18,13 @@ highlightStyle = "solarized-dark"
 highlightLanguages = ["go", "python", "emacs-lisp"]
 copyright = "&copy; Terrence Ho 2017-2026"
 favicon = "/favicon.ico"
+
+[markup.goldmark.extensions.passthrough]
+enable = true
+
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [["\\[", "\\]"], ["$$", "$$"]]
+inline = [["\\(", "\\)"]]
 
 [[menu.main]]
 url = "/"

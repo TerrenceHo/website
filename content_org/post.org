@@ -4,7 +4,7 @@
 * Posts
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: post
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER:
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :math true
 :END:
 
 ** DONE Writing My Blog Posts with Org                       :emacs:hugo:org:
@@ -707,6 +707,7 @@ I should have a blog post up soon detailing how I organize my blog posts using
 ** TODO My new grad job search and my view on interviews     :interviews:job:
    :PROPERTIES:
    :EXPORT_FILE_NAME: new-grad-interview-thoughts
+   :EXPORT_HUGO_SECTION: post
    :EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
    :END:
 
