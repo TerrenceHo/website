@@ -4,6 +4,9 @@ title = "Terrence Ho"
 googleAnalytics = "UA-86036425-2"
 enableRobotsTXT = true
 
+[pagination]
+pagerSize = 20
+
 [params]
 author = "Terrence Ho"
 description = "Software Engineer"
@@ -17,6 +20,9 @@ highlightStyle = "solarized-dark"
 highlightLanguages = ["go", "python", "emacs-lisp"]
 copyright = "&copy; Terrence Ho 2017-2026"
 favicon = "/favicon.ico"
+
+[markup.goldmark.renderer]
+unsafe = true
 
 [markup.goldmark.extensions.passthrough]
 enable = true
