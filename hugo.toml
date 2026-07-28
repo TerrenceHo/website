@@ -14,12 +14,16 @@ githubUsername = "TerrenceHo"
 accent = "red"
 showBorder = false
 backgroundColor = "white"
-font = "Raleway"                                    # should match the name on Google Fonts!
-highlight = true
-highlightStyle = "solarized-dark"
-highlightLanguages = ["go", "python", "emacs-lisp"]
+font = "Raleway"                                    # self-hosted; see assets/fonts/
 copyright = "&copy; Terrence Ho 2017-2026"
 favicon = "/favicon.ico"
+
+# Chroma highlights at build time. noClasses = false emits CSS classes instead of
+# inline styles; regenerate assets/css/syntax.css if `style` changes:
+#   hugo gen chromastyles --style=solarized-dark > assets/css/syntax.css
+[markup.highlight]
+noClasses = false
+style = "solarized-dark"
 
 [markup.goldmark.renderer]
 unsafe = true

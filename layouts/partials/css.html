@@ -1,31 +1,24 @@
-<style>
+{{/* Self-hosted Raleway. Fingerprinted so the URLs are content-addressed and
+     cacheable forever; nothing is fetched from fonts.googleapis.com. */}}
+{{ $latin := resources.Get "fonts/raleway-latin.woff2" | fingerprint }}
+{{ $latinExt := resources.Get "fonts/raleway-latin-ext.woff2" | fingerprint }}
 
-    html body {
-        font-family: '{{ .Site.Params.font }}', sans-serif;
-        background-color: {{ .Site.Params.backgroundColor | default "white" }};
-    }
+{{/* fonts.css and params.css are templates: the fingerprinted font URLs and the
+     [params] theme colours are baked in before concatenation. */}}
+{{ $fonts := resources.Get "css/fonts.css" | resources.ExecuteAsTemplate "css/fonts.css" (dict "latin" $latin.RelPermalink "latinExt" $latinExt.RelPermalink) }}
+{{ $params := resources.Get "css/params.css" | resources.ExecuteAsTemplate "css/params.css" . }}
+{{ $main := resources.Get "css/main.css" }}
+{{ $syntax := resources.Get "css/syntax.css" }}
+{{ $css := slice $fonts $params $main $syntax | resources.Concat "css/site.css" | minify | fingerprint }}
 
-    :root {
-        --accent: {{ .Site.Params.accent | default "#2196F3" }};
-        --border-width: {{ if .Site.Params.showBorder | default false }} 5px {{ else }} 0 {{ end }};
-    }
-
-</style>
-
-<!-- main -->
-<link rel="stylesheet" href="{{ "css/main.css" | absURL }}">
+<link rel="preload" as="font" type="font/woff2" href="{{ $latin.RelPermalink }}" crossorigin>
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 
 <!-- custom -->
 {{ range .Site.Params.css }} <link rel="stylesheet" href="{{ . | absURL }}"> {{ end }}
-
-<!-- google fonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ .Site.Params.font }}">
-
-<!-- highlight.js -->
-{{ if .Site.Params.highlight | default false }} <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/{{ .Site.Params.highlightStyle | default "default" }}.min.css"> {{ end }}
 
 <!-- bootstrap -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <!-- font awesome -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" integrity="sha384-No+VI8Wwi7LzQn9F3FVzBXMxHH2DQpi1C2B8xrgG/EcPXRuAv1gUo8zA92+F+sEz" crossorigin="anonymous">
