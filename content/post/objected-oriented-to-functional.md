@@ -12,7 +12,7 @@ You can manipulate functions like other types of data.  You can pass it around, 
 
 In this first blog post, we shall experiment with treating functions as data that can define behavior.  To give an example of this, we will implement a calculator.  We will start with a more object oriented version to contrast object oriented vs functional, and then progressively replace functionality of the calculator with functional parts, while maintaining the same overall goal of having a calculator.
 
-We want it to be able to Add, Subtract, and Multiply.  Let's define a _Calculator_ object to hold our accumulated value during calculations.  An accumulated value is simply so we can remember the previous value for successive operations.  $1+2=3$, then three is the accumulated value.  Our next operation will use $3$ and a another number.  We'll also define a _Do_ method to compute an action.
+We want it to be able to Add, Subtract, and Multiply.  Let's define a _Calculator_ object to hold our accumulated value during calculations.  An accumulated value is simply so we can remember the previous value for successive operations.  \(1+2=3\), then three is the accumulated value.  Our next operation will use \(3\) and a another number.  We'll also define a _Do_ method to compute an action.
 
 
 ```python
@@ -162,7 +162,7 @@ class Calculator(object):
 
 Why does our _Add_ function return a function?  Here's the cool part about passing around functions as data.  We can modify a function before it is executed.  Let's give an example about how the add function would play out.  
 
-Let's try ```Add(10)```.  _Add_ sets _v_ equal to $10$.  It defines a function called _operation_ that takes in a second value _acc_ and adds it to _v_.  Then add returns _operation_.
+Let's try ```Add(10)```.  _Add_ sets _v_ equal to \(10\).  It defines a function called _operation_ that takes in a second value _acc_ and adds it to _v_.  Then add returns _operation_.
 
 What specifically is returned when we call ```Add(10)```?  The result of the function looks like this
 ```
@@ -170,7 +170,7 @@ def operation(acc):
     return acc + 10
 ```
 
-```Add(10)``` returns a function that adds $10$ to _acc_.  ```Add(9)``` would return a function that adds $9$ to _acc_.  
+```Add(10)``` returns a function that adds \(10\) to _acc_.  ```Add(9)``` would return a function that adds \(9\) to _acc_.  
 
 ```
 def operation(acc):
@@ -190,7 +190,7 @@ print(c.Do(Add(20)))
 
 
 When calling _Do_, we don't call it with the ```Add``` function itself, but the result of evaluating ```Add(10)```.  The type of evaluating ```Add(10)``` is a function that takes in a value and returning a value. We are calling the operation function that is returned by ```Add(10)```.  
-_Do_ then passes in ```self.acc``` into the operation function to add $10$ to ```self.acc```.
+_Do_ then passes in ```self.acc``` into the operation function to add \(10\) to ```self.acc```.
 
 We can define other functions in a similiar style.  Thus we can easily define other functions like this as well.
 
